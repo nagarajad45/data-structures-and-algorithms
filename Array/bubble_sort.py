@@ -11,10 +11,9 @@ def bubble_sort(arr):
                 temp = arr[j]
                 arr[j] = arr[j+1]
                 arr[j+1] = temp
-            else:
                 swapped = True
         if not swapped:
-            return arr
+            break
     return arr
 
 
